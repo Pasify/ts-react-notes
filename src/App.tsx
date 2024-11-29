@@ -15,7 +15,6 @@ function App() {
       setIsLoading(false);
     }
     setTimeout(fetChar, 3000);
-    // fetChar();
   }, []);
   return (
     <main>
